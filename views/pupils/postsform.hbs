@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<h4>{{elever.navn}}</h4>
+<p>Welcome to {{id}}</p>
+{{id}}------{{elever.navn}}
+
+<form action="/pupils/post/create/{{id}}" method="post">
+  Kommentar: <input type="text" name="kommentar"><br>
+  <input type="submit" value="Submit">
+</form>
